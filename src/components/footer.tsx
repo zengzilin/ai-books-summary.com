@@ -33,7 +33,7 @@ export default function Footer() {
                 <Icons.twitter className="h-6 w-6 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300" />
               </a>
               <a
-                href="https://github.com/w3tsadev"
+                href="https://github.com/zengzilin"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Github"
@@ -62,7 +62,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="mailto:w3tsadev@gmail.com"
+                  href="zengzilin2016@gmail.com"
                   className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
                 >
                   Contact
