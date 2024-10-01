@@ -1,7 +1,7 @@
 import { POSTS } from "@/lib/constants";
 import { getBlogPosts } from "./blog/utils";
 
-export const baseUrl = "https://ai-checker.tools";
+export const baseUrl = "https://ai-books-summary.com";
 
 export default async function sitemap() {
   let blogs = getBlogPosts().map((post) => ({

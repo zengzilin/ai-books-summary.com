@@ -10,11 +10,11 @@ type SiteConfig = {
 };
 
 export const siteConfig: SiteConfig = {
-  name: "Coding Jitsu Blog",
+  name: "AI books summary Blog",
   description:
-    "An Open source Technical Blog platform with Next.js 14 with shadcn/ui, prisma and markdown support.",
-  url: "https://ai-checker.tools/",
-  ogImage: "https://ai-checker.tools/og",
+    "An Open source  platform display the Books summary base on AI.",
+  url: "https://ai-books-summary.com",
+  ogImage: "https://ai-books-summary.com/og",
   links: {
     twitter: "https://twitter.com/zengzilin",
     github: "https://github.com/zengzilin",
