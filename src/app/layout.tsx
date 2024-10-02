@@ -28,11 +28,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Coding Jitsu",
-      url: "https://github.com/codingjitsu",
+      name: "Coding David",
+      url: "https://github.com/zengzilin",
     },
   ],
-  creator: "coding jitsu",
+  creator: "coding zengzilin",
   openGraph: {
     type: "website",
     locale: "en_US",

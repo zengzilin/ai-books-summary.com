@@ -1,6 +1,6 @@
 "use client";
 
-// import { popularPosts } from "@/lib/placeholder-data";
+import { popularPosts } from "@/lib/placeholder-data";
 import { fetcher, fetchUrl } from "@/lib/utils";
 import { Icons } from "../icons";
 import Link from "next/link";

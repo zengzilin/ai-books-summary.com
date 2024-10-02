@@ -3,8 +3,8 @@
 import { POSTS } from "@/lib/constants";
 import { Icons } from "./icons";
 import Link from "next/link";
-// import { Input } from "./ui/input";
-// import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import { Button } from "./ui/button";
 import { createSubscriber } from "@/lib/actions";
 import { useFormState } from "react-dom";
 
@@ -94,7 +94,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          {/* <div className="space-y-4">
+          <div className="space-y-4">
             <h3 className="text-md font-semibold">Newsletter</h3>
             <p className="text-gray-500 dark:text-gray-400 text-sm">
               Subscribe to our newsletter to stay up-to-date with the latest
@@ -130,7 +130,7 @@ export default function Footer() {
                 )}
               </div>
             </form>
-          </div> */}
+          </div>
         </div>
         <div className="mt-8 border-t border-gray-200 pt-4 text-center text-xs text-gray-500 dark:border-gray-700 dark:text-gray-400">
           &copy; 2024 Coding Jitsu. All rights reserved.
