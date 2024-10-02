@@ -4,6 +4,7 @@ import LatestPosts from "@/components/home/latest-posts";
 import TopCatogories from "@/components/home/top-categories";
 import { MainNav } from "@/components/main-nav";
 
+
 export default function Home() {
   return (
     <Container>
