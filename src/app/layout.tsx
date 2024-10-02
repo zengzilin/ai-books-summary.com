@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Coding David",
+      name: "coding zengzilin",
       url: "https://github.com/zengzilin",
     },
   ],
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [`${siteConfig.url}/og`],
-    creator: "@codingJitsu",
+    creator: "@zengzilin",
   },
   icons: {
     icon: "/favicon.ico",

@@ -5,7 +5,7 @@ export const categories = [
   "animation",
   "performance",
   "database",
-  "books"
+  "book"
 ];
 
 export const popularPosts = [
