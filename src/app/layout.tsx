@@ -5,6 +5,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/footer";
 import { siteConfig } from "@/config/site";
 
+import { GoogleTagManager } from '@next/third-parties/google'
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -67,6 +69,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <main className="flex-1">{children}</main>
+          <GoogleTagManager gtmId="G-YKVZ7690ZX" />
           <Footer />
         </ThemeProvider>
       </body>
