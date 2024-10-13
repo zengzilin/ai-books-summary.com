@@ -7,7 +7,7 @@ import { siteConfig } from "@/config/site";
 
 import { GoogleTagManager } from '@next/third-parties/google'
 import Script from "next/script";
-
+import  Link from 'next/link';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -64,6 +64,9 @@ export default function RootLayout({
     <html lang="en">
       <head><Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7977474508095040" crossOrigin="anonymous" /><GoogleTagManager gtmId="G-YKVZ7690ZX" /></head>
       <body className={inter.className}>
+        <Link href="https://aisphereguide.com">
+        <a title="Tap4 AI Tools Directory">Tap4 AI Tools Directory</a>
+        </Link>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
